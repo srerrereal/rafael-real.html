@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Roboto'
+  src: url('../font/Roboto/Roboto-Bold.ttf');
+
+}
+
+
+body{
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+
+}
+
+#rafael-real{
+  margin-top: 120px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.title:hover{
+  -webkit-filter: drop-shadow(0px 0px 18px rgba(0, 251, 88, 0.7));
+}
+
+#button-config{
+  width: 1270px;
+  text-align: center;
+  display: inline;
+  margin-left: -42px;
+
+}
+#button-config a{
+  margin-left: 40px;
+  text-align: center;
+
+}
+
+#button-config img{
+  margin-left: 0;
+}
+
+/*#button-config img:hover{
+-webkit-filter: drop-shadow(0px 0px 8px rgba(0, 251, 88, 0.9));
+
+}*/
+
+#button-config a p{
+  font-family: 'Roboto';
+  font-size: 42px;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  display: inline;
+  margin: 104px -266px;
+
+}
+
+.portfolio-polygon{
+  padding-left: 12px;
+
+}
+.polygon-hover{
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 251, 88, 0.9));
+}
+
+
+.resume-button{
+  padding-left: 26px;
+}
+.portfolio-button{
+
+}
+.contact-button{
+  padding-left: 18px;
+}

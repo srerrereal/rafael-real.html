@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Roboto'
+  src: url('../font/Roboto/Roboto-Bold.ttf');
+  font-family: 'Roboto-Regular';
+  src: url('../font/Roboto/Roboto-Regular.ttf');
+}
+
+
+header{
+  height: 720px;
+  width: 100%;
+
+}
+
+body{
+background-color: #fff;
+height: 3000px;
+}
+
+#rafael-real{
+  position: relative;
+  margin-top: 124px;
+  text-align: center;
+  z-index: 4;
+  margin-left: 64px;
+}
+
+.title{
+  position: relative;
+}
+
+#background-img{
+    position: absolute;
+}
+
+#button-config{
+  position: relative;
+      width: 1270px;
+      text-align: center;
+      display: inline;
+      top: 45%;
+      z-index: 1;
+      margin-left: 15px;
+}
+#button-config a img{
+  margin-left: 40px;
+  text-align: center;
+
+}
+#button-config a{
+  text-decoration: none;
+}
+
+
+#button-config a p{
+  font-family: 'Roboto';
+  font-size: 42px;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  display: inline;
+  margin: 104px -266px;
+
+}
+
+.contact-button{
+margin-left: -20px;
+}
+.polygon-hover{
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 251, 88, 0.9));
+}
+
+
+.resume-button{
+  padding-left: 26px;
+}
+.portfolio-button{
+
+}
+.contact-button{
+  padding-left: 18px;
+}
+
+#video-bg{
+  position: inherit;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.2;
+  margin-top: -731px;
+  margin-left: 0.4em
+
+}
+
+.profile-picture{
+  border: 0px;
+  border-radius: 5.25rem;
+}
+
+.resize-buttons{
+  margin-top: 75px;
+margin-left: 20px;
+}
+.gray{
+  background-color: #d6d6d6;
+}
+
+
+.test-color{
+  height: 600px;
+  background-color:#d6d6d6;
+}
+
+
+.scrolltop{
+
+display: none;
+}
+
+.bio{
+  font-family: 'Roboto-Regular';
+  font-size: 16px;
+  font-style: italic;
+}
+
+#saints-coffee{
+
+}
+
+
+#saints-coffee h2{
+  font-family: 'Roboto';
+  font-size: 45px;
+}
+#saints-coffee h1{
+  font-size: 50px;
+}
+
+#page-title{
+  font-family: 'Roboto';
+  font-size: 72px;
+}
+
+#about{
+  font-family: 'Roboto-Regular';
+  font-size: 20px;
+}

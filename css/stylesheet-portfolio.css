@@ -1,0 +1,113 @@
+@@font-face {
+  font-family: 'Roboto-bold';
+  src: url('../font/Roboto/Roboto-Bold.ttf');
+}
+
+body{
+background-image: url('../img/bg-portfolio.jpg');
+position: absolute;
+}
+
+h2{
+  margin-top: 20px;
+  font-size: 96px;
+  margin-left: -42px;
+  font-family: 'Roboto-bold';
+
+}
+
+#menu{
+  text-align: center;
+  margin-left: 78px;
+  margin-bottom: 50px;
+
+}
+
+#subtitles{
+  position: fixed;
+}
+
+#subtitles a{
+  text-decoration: none;
+}
+
+.web-design-subtitle{
+margin-top: -3px;
+margin-left: 430px;
+display: none;
+font-family: 'Roboto-bold';
+font-size: 32px;
+color: #000;
+}
+.app-subtitle{
+font-family: 'Roboto-bold';
+position: fixed;
+font-size: 32px;
+margin-left: 790px;
+margin-top: -3px;
+position: fixed;
+display: none;
+color: #000;
+}
+
+/*.web-design-icon{
+  margin: 58px 4px;
+}*/
+/*.smartphone-icon{
+  margin: 50px 10px;
+  padding-bottom: 20px;
+  z-index: 1;
+}*/
+
+#navbar{
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 50px;
+  margin: 0 0;
+  width: 1280px;
+  position: static;
+}
+
+
+#navbar #go-back{
+  position: fixed;
+  right: 80px;
+  display: none;
+  font-size: 25px;
+  top: 12.5px;
+  font-family: 'Roboto-bold'
+
+}
+
+#home-button{
+  right: 40px;
+  margin-top: 8px;
+  width: 32px;
+  height: auto;
+  position: absolute;
+  }
+
+  #icons{
+  margin: 0;
+  }
+
+  /*#icons .smartphone-icon{
+    margin: 50px 38px;
+  }
+*/
+
+#web-design{
+margin-top: 53px;
+margin-left: 0;
+}
+
+#web-design .web-design-icon{
+    padding-left: 360px;
+}
+#apps{
+margin-top: 42px;
+height: 256px;
+
+}
+#apps .smartphone-icon{
+  padding-left: 26px;
+}
