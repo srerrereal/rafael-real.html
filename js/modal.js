@@ -1,11 +1,19 @@
 $(document).ready(function(){
 
-  $(window).scroll(function() {
-  if ($(this).scrollTop()> 600) {
-  $('.scrolltop').fadeIn();
-  } else {
-  $('.scrolltop').fadeOut();
-  }
-  });
+$('#julesTrigger').click(function () {
+
+  $('#julesModal').modal('show');
+
+});
+$('#dogTrigger').click(function () {
+
+  $('#dogModal').modal('show');
+
+});
+$('#randomlyTrigger').click(function () {
+
+  $('#randomlyModal').modal('show');
+
+});
 
 });

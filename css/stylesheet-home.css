@@ -106,13 +106,26 @@ margin-left: 20px;
 }
 
 
-.test-color{
-  height: 600px;
-  background-color:#d6d6d6;
+.col-gray-color{
+  height: 500px;
+  background-color:#e2e2e2;
+}
+
+.col-gray-l-color{
+  height: 500px;
+  background-color: #d6d6d6;
+}
+.col-black-color{
+  height: 500px;
+  background-color: #2a2a2a;
 }
 
 
 .scrolltop{
+
+display: none;
+}
+.scrolltop2{
 
 display: none;
 }
@@ -144,4 +157,23 @@ display: none;
 #about{
   font-family: 'Roboto-Regular';
   font-size: 20px;
+}
+
+.page-align-left{
+  margin-left: 90px;
+}
+
+.page-align-right{
+  margin-right: 90px;
+}
+
+.subtitle{
+  font-family: 'Roboto-Regular';
+  font-size: 16px;
+  color: #fff;
+  display: none;
+  margin-top: -26px;
+}
+.link{
+  cursor: pointer;
 }
