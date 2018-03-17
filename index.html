@@ -12,6 +12,8 @@
     <script src="js/scrollTop.js"></script>
     <script src="js/slide-effect.js"></script>
     <script src="js/modal.js"></script>
+    <script src="js/rotate-effect.js"></script>
+    <script src="js/scroll-to-page.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
@@ -31,15 +33,15 @@
                         <div id="button-config" class="container">
 
                         <a href="#"><img src="img/resume.png" alt="" class=" img-responsive resume-polygon">
-                          <p class="resume-button">RESUME</p>
+                          <p id="projects" class="projects-button button-config-projects" style="margin-left: -270px;">PROJECTS</p>
                         </a>
                         <a href="#">
                           <img src="img/portfolio.png" alt="" class=" img-responsive portfolio-polygon">
-                          <p class="portfolio-button">PORTFOLIO</p></a>
+                          <p id="about" class="about-button button-config-about" style="margin-left: -230px;">ABOUT</p></a>
 
                         <a href="#" class="contact-button">
                           <img src="img/contact.png" alt="" class="contact-polygon">
-                          <p class="contact-button">CONTACT</p>
+                          <p id="contact" class="contact-button button-config-contact" style="margin-left: -270px">CONTACT</p>
                         </a>
                       </div>
         </div>
@@ -64,7 +66,7 @@
       <div class="row">
 
 
-            <div class="col-lg-12 text-center" style="background-color: #FFD166;">
+            <div class="col-lg-12 text-center projectScroll" style="background-color: #FFD166;">
                   <br>
                   <h1 id="page-title"><i class="fas fa-cogs"></i> Web Design</h1>
                   <br>
@@ -74,7 +76,7 @@
 <!-- Saint's Coffee --->
 
 
-          <div class="container-fluid max-width col-gray-color">
+          <div class="container-fluid max-width col-gray-color ">
 
             <br>
             <br>
@@ -271,7 +273,7 @@
 
       <div class="row">
 
-          <div class="col-lg-12 text-center" style="background-color: #fff">
+          <div class="col-lg-12 text-center aboutScroll" style="background-color: #fff">
             <br>
             <h1 class="page-title"><i class="fas fa-user-circle"></i> About</h1>
             <br>
@@ -379,7 +381,7 @@
     <br>
     <br>
     <br>
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center contactScroll">
 
           <h1 class="page-title" style="color: #fff; font-size: 50px;">Follow me!</h1>
 
@@ -413,10 +415,19 @@
 
   </footer>
   <div class="row">
-    <div class="col-lg-12 text-right" style="height: 70px; background-color:#0a0a0a; ">
+    <div class="col-lg-4 text-center mx-auto" style="height: 70px; background-color:#0a0a0a; margin-top: -10px; ">
 
-      <span style="font-family: Roboto-Regular; font-size: 10px float: right; color: #fff;"><h4>Made with <i class="em em-heart"></i> by <img src="img/signature copy.png" style="width: 8%; margin-right: 60px" alt=""> </h4></span>
+      <span><h4 style="font-family: Roboto-Regular; font-size: 10px float: right; color: #fff;">Made with <i class="em em-heart"></i> by <img src="img/signature copy.png" style="width: 20%;" alt=""> </h4></span>
 
     </div>
+    <div class="col-lg-4 text-center" style="background-color:#0a0a0a;">
+      <h4  style="color: #fff;font-family: Roboto-Regular; font-size: 14px;"><i class="fas fa-map-marker"></i> Av. Juscelino K. de Oliveira, 2200 | 4D 102 | PELOTAS, RS | BRAZIL</h4>
+    </div>
+      <div class="col-lg-4 text-center" style="background-color:#0a0a0a;">
+      <h4 style="color: #fff; font-family: Roboto-Regular; font-size: 14px;"><i class="fas fa-phone-volume"></i> +5553981199764</h4>
+    </div>
+
+
+
   </div>
 </html>

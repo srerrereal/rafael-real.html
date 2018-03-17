@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-$(".resume-button").rotate({
+$(".projects-button").rotate({
   bind:
   {
     mouseover : function() {
@@ -13,7 +13,7 @@ $(".resume-button").rotate({
   }
 
 });
-$(".portfolio-button").rotate({
+$(".about-button").rotate({
   bind:
   {
     mouseover : function() {

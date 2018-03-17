@@ -52,14 +52,34 @@ height: 3200px;
 }
 
 
-#button-config a p{
+.button-config-projects{
   font-family: 'Roboto';
   font-size: 42px;
   color: #fff;
   text-decoration: none;
   position: absolute;
   display: inline;
-  margin: 104px -266px;
+  margin-top: 105px;
+
+}
+.button-config-about{
+  font-family: 'Roboto';
+  font-size: 42px;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  display: inline;
+  margin-top: 105px;
+
+}
+.button-config-contact{
+  font-family: 'Roboto';
+  font-size: 42px;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  display: inline;
+  margin-top: 105px;
 
 }
 
@@ -71,10 +91,11 @@ margin-left: -20px;
 }
 
 
-.resume-button{
-  padding-left: 26px;
+.projects-button{
+  margin-left: 26px;
 }
-.portfolio-button{
+.about-button{
+  margin-left: 20px;
 
 }
 .contact-button{
@@ -163,10 +184,6 @@ display: none;
   font-size: 72px;
 }
 
-#about{
-  font-family: 'Roboto-Regular';
-  font-size: 20px;
-}
 
 .page-align-left{
   margin-left: 90px;
