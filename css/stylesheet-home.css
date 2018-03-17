@@ -14,7 +14,7 @@ header{
 
 body{
 background-color: #fff;
-height: 3000px;
+height: 3200px;
 }
 
 #rafael-real{
@@ -102,22 +102,26 @@ margin-left: -20px;
 margin-left: 20px;
 }
 .gray{
-  background-color: #d6d6d6;
+  background-color: #06D6A0;
 }
 
 
 .col-gray-color{
-  height: 500px;
-  background-color:#e2e2e2;
+  height: 400px;
+  background-color:#FFD166;
 }
 
 .col-gray-l-color{
   height: 500px;
-  background-color: #d6d6d6;
+  background-color: #FF7C7C;
 }
 .col-black-color{
   height: 500px;
-  background-color: #2a2a2a;
+  background-color: #26547C;
+}
+.col-white-color{
+  height: 900px;
+  background-color: #FCFCFC;
 }
 
 
@@ -154,6 +158,11 @@ display: none;
   font-size: 72px;
 }
 
+.page-title{
+  font-family: 'Roboto';
+  font-size: 72px;
+}
+
 #about{
   font-family: 'Roboto-Regular';
   font-size: 20px;
@@ -176,4 +185,70 @@ display: none;
 }
 .link{
   cursor: pointer;
+}
+
+footer{
+  height: 400px;
+  background-color: #0a0a0a;
+}
+
+.icon{
+  width: 30%;
+}
+
+
+.footer-icon{
+  font-size: 48px;
+  color: #E1E1EE;
+}
+.sub-icon-fb{
+  margin-top: 8px;
+  font-size: 18px;
+  color: #E1E1EE;
+  display: none;
+  float: inherit;
+}
+.sub-icon-twitter{
+  margin-top: 8px;
+  font-size: 18px;
+  color: #E1E1EE;
+  display: none;
+}
+.sub-icon-instagram{
+  margin-top: 8px;
+  font-size: 18px;
+  color: #E1E1EE;
+  display: none;
+}
+.sub-icon-github{
+  margin-top: 8px;
+  font-size: 18px;
+  color: #E1E1EE;
+  display: none;
+}
+.sub-icon-linkedin{
+  margin-top: 8px;
+  font-size: 18px;
+  color: #E1E1EE;
+  display: none;
+}
+.sub-icon-mail{
+  margin-top: 8px;
+  font-size: 18px;
+  color: #E1E1EE;
+  display: none;
+}
+
+.input-mail{
+  background-image: url('../img/envelope.png');
+  background-color: transparent;
+  background-position: 0px 0px;
+    background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  vertical-align: middle;
+  padding-left: 42px;
+  height: 42px;
+  width: 42px;
+
 }

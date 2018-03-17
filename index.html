@@ -6,13 +6,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-    <script src="js/rotate-effect.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="js/chart.js"></script>
     <script src="jQuery/jquery-rollin.js"></script>
     <script src="js/scrollTop.js"></script>
     <script src="js/slide-effect.js"></script>
     <script src="js/modal.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="css/stylesheet-home.css">
 
     <title>Rafael Real</title>
@@ -61,9 +63,8 @@
 
       <div class="row">
 
-        <br>
 
-            <div class="col-lg-12 text-center" style="background-color: #FFF;">
+            <div class="col-lg-12 text-center" style="background-color: #FFD166;">
                   <br>
                   <h1 id="page-title"><i class="fas fa-cogs"></i> Web Design</h1>
                   <br>
@@ -75,15 +76,13 @@
 
           <div class="container-fluid max-width col-gray-color">
 
+            <br>
+            <br>
+            <br>
             <div class="row">
+
               <div class="col-lg-6 text-left">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+
                 <h2 class="text-left page-align-left">Saint's Coffee</h2>
                     <div class="ui tall stacked segment" style="margin-left: 90px;">
                       <p class="bio text-left">A beautiful responsive website, with a clean design maded for any coffee shop
@@ -92,10 +91,8 @@
 
               </div>
               <div class="col-lg-6 text-right">
-                    <br>
-                    <br>
-                    <br>
-                    <a href="#" class="ui large image page-align-right"><img src="img/saints-coffee.png" alt="" class="float-right scrolltop" style="margin-top: 105px;"></a>
+
+                    <a href="#" class="ui large image page-align-right"><img src="img/saints-coffee.png" alt="" class="float-right scrolltop" style=""></a>
               </div>
 
             </div>
@@ -270,53 +267,107 @@
 
 
 
+<!-- about -->
+
+      <div class="row">
+
+          <div class="col-lg-12 text-center" style="background-color: #fff">
+            <br>
+            <h1 class="page-title"><i class="fas fa-user-circle"></i> About</h1>
+            <br>
+          </div>
+
+      </div>
 
 
+      <div class="container-fluid max width col-white-color">
+
+        <br>
+        <br>
+        <br>
+
+        <div class="row">
 
 
-
-
-        <div id="about" class="col-lg-12">
-
-
-
-
-
-        <div class="ui raised segment">
-
-
-            <div id="profile-picture" class="float-right">
-                <div class="ui small circular rotate reveal image">
-                      <img src="img/profile-hidden.png" class="visible content">
-                      <img src="img/profile.png" class="hidden content">
+            <div class="col-lg-6 text-left">
+              <br>
+              <br>
+              <br>
+                <div class="container-fluid  d-flex justify-content-end"  >
+                <div class="ui raised segment" style="width: 80%;">
+                    <h2 style="font-size: 28px; font-family: Roboto-Bold;"><i class="fas fa-graduation-cap"></i> Education</h2>
+                    <p class="bio">High School - Colégio São José (2010 - 2012)</p>
+                    <p class="bio">Science Computer - Universidade Federal de Pelotas (2013 - 2015)</p>
                 </div>
+              </div>
+           </div>
 
+            <div class="col-lg-6 text-right" style="font-family: Roboto-Regular">
+                  <div id="chartContainer" style="height: 300px; width: 80%;"></div>
+          </div>
+
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="row">
+        <div class="col-lg-1">
         </div>
+        <div class="col-lg-10">
 
 
-                          <h2>About Me</h2>
-
-                        <p>Hi! My name is Rafael Real, i live in Pelotas, RS - Brazil.
-                          I'm 24 years old and i am a FrontEnd Developer.
-                          I started my career as a developer about seven years when i was in college. I used to make some projects using
-                          C and Java, and then i took an arrow in the brain when i saw the beatiful world of FrontEnd!
-                        </p>
-                        <p>And this was the beginning of a big relationship. I love what i do and i'm always studying to learn the
-                        latest technologies avaiable</p>
-                        <p>I really like to draw as well, i have a web comic (that you can see on this <a href="http://thelifeofrafa.tumblr.com">link</a>)
-                          and i always been a fan of Photoshop, Animate CC etc. So, doing the artistic work sometimes doesn't bother me a bit.
-                        </p>
-                        <p>I really like comic books, tv series, basketball, anime, and Lo-Fi.
-                        </p>
-                        <p>If you are looking for a employee that loves his profession, it's dedicated, and work a lot to give what was promissed, you just found it!
-                        </p>
+                    <div class="ui raised segment">
+                        <div class="row">
 
 
+                        <div class="col-lg-3">
+                          <div id="profile-picture" class="align-self-center mr-3">
+                              <div class="ui medium circular rotate left reveal image ">
+                                    <img src="img/profile-hidden.png" class="visible content">
+                                    <img src="img/profile.png" class="hidden content">
 
-                    </div>
+                              </div>
 
-                </div>
+                            </div>
+                            <p class="text-center" style="font-family: Roboto-Regular; font-size: 13px; color: #c2c2c2"> Hey, over here!</p>
+                          </div>
 
+                          <div class="col-lg-9">
+
+                            <h2 style="font-size: 28px; font-family: Roboto-Bold">Nice to meet you!</h2>
+
+                              <div class="container-fluid text-left mb-0 bio">
+
+                                    <p>Hi! My name is Rafael Real, i live in Pelotas, RS - Brazil.
+                                      I'm 24 years old and i am a FrontEnd Developer.
+                                      I started my career as a developer about seven years when i was in college. I used to make some projects using
+                                      C and Java, but then i took an arrow in the brain when i saw the beautiful world of Front-End Development!</p>
+                                    <p>And this was the beginning of a big relationship. I love what i do and i'm always studying to learn the
+                                    latest technologies avaiable. I really like to draw as well, i have a web comic (that you can see on this <a href="http://thelifeofrafa.tumblr.com"><img src="img/link-holding-triforce.gif" alt="link" style="width: 8%"></a>)
+                                      and i always have been a fan of Photoshop, Animate CC etc. So, doing the artistic work sometimes doesn't bother me at all.
+                                      My hobbies are comic books, tv series, basketball, anime, and Lo-Fi music.
+                                    </p>
+                                    <p>If you are looking for a guy who loves what he does, it's dedicated, and work a lot to give what was promissed, you just found it!
+                                    </p>
+                              </div>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+              </div>
+        <div class="col-lg-1"></div>
+
+
+          </div>
+        </div> <!---end body -->
 
 
 
@@ -324,4 +375,48 @@
 
   </body>
 
+  <footer>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid text-center">
+
+          <h1 class="page-title" style="color: #fff; font-size: 50px;">Follow me!</h1>
+
+    </div>
+    <div class="container-fluid">
+      <br>
+      <br>
+      <br>
+      <br>
+
+    <div class="row">
+      <div class="col-sm-2 text-center"> <a id="facebook" href="https://www.facebook.com/r3afael" style="text-decoration: none;"><i class="footer-icon fab fa-facebook-f"></i><p class="sub-icon-fb">r3afael</p> </a> </div>
+      <div class="col-sm-2 text-center"> <a id="twitter"  href="http://twitter.com/kimerra" style="text-decoration: none;"><i class="footer-icon fab fa-twitter"></i><p class="sub-icon-twitter">@kimerra</p> </a> </div>
+      <div class="col-sm-2 text-center"> <a id="instagram" href="https://www.instagram.com/r3afa/" style="text-decoration: none;"><i class="footer-icon fab fa-instagram"></i><p class="sub-icon-instagram">r3afa</p> </a> </div>
+      <div class="col-sm-2 text-center"> <a id="github"  href="https://github.com/srerrereal" style="text-decoration: none;"><i class="footer-icon fab fa-github"></i><p class="sub-icon-github">srerrereal</p> </a> </div>
+      <div class="col-sm-2 text-center"> <a id="linkedin" href="https://www.linkedin.com/in/rafael-r-real/" style="text-decoration: none;"><i class="footer-icon fab fa-linkedin-in"></i><p class="sub-icon-linkedin">rafael-r-real</p> </a> </div>
+      <div class="col-sm-2 text-center"> <form style="margin-top: 7px; margin-left: 7px;"action="mailto:rafael.real94@gmail.com" method="post" enctype="text/plain"><input type="submit" id="mail" class="input-mail" value=""></form><p class="sub-icon-mail">E-mail</p> </a> </div>
+
+    </div>
+
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+  </div>
+
+  </footer>
+  <div class="row">
+    <div class="col-lg-12 text-right" style="height: 70px; background-color:#0a0a0a; ">
+
+      <span style="font-family: Roboto-Regular; font-size: 10px float: right; color: #fff;"><h4>Made with <i class="em em-heart"></i> by <img src="img/signature copy.png" style="width: 8%; margin-right: 60px" alt=""> </h4></span>
+
+    </div>
+  </div>
 </html>
