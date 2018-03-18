@@ -113,6 +113,14 @@ margin-left: -20px;
 
 }
 
+#text-segment-left{
+  margin-left: 90px;
+}
+#text-segment-right{
+  margin-right: 90px;
+}
+
+
 .profile-picture{
   border: 0px;
   border-radius: 5.25rem;
@@ -123,22 +131,22 @@ margin-left: -20px;
 margin-left: 20px;
 }
 .gray{
-  background-color: #06D6A0;
+  background-color: #DAE2DF;
 }
 
 
 .col-gray-color{
   height: 400px;
-  background-color:#FFD166;
+  background-color:#F4F4F9;
 }
 
 .col-gray-l-color{
   height: 500px;
-  background-color: #FF7C7C;
+  background-color: #D7E7F7;
 }
 .col-black-color{
   height: 500px;
-  background-color: #26547C;
+  background-color: #ABDFE8;
 }
 .col-white-color{
   height: 900px;
@@ -179,6 +187,14 @@ display: none;
   font-size: 72px;
 }
 
+#Apps-lg{
+  display: visible;
+}
+
+#carouselApps{
+  display: none;
+}
+
 .page-title{
   font-family: 'Roboto';
   font-size: 72px;
@@ -188,6 +204,7 @@ display: none;
 .page-align-left{
   margin-left: 90px;
 }
+
 
 .page-align-right{
   margin-right: 90px;
@@ -267,5 +284,26 @@ footer{
   padding-left: 42px;
   height: 42px;
   width: 42px;
+
+}
+
+.sm-icons{
+  display: none;
+}
+
+.saints{
+  margin: 0;
+
+}
+.saints-row{
+  margin-top:0;
+
+}
+.orlando{
+  margin-top: 0;
+
+}
+.orlando-row{
+  margin-top: -20px;
 
 }

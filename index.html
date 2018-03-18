@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/flicky.js"></script>
     <script src="js/chart.js"></script>
     <script src="jQuery/jquery-rollin.js"></script>
     <script src="js/scrollTop.js"></script>
@@ -17,14 +20,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
     <link rel="stylesheet" href="css/stylesheet-home.css">
+    <link rel="stylesheet" href="css/stylesheet-home-responsive.css">
 
     <title>Rafael Real</title>
   </head>
 
     <header>
       <div class="row">
-          <div class="col-lg-12">
+          <div class="col-md-12 text-center">
                 <div id="rafael-real" class="container">
                   <img src="img/TITLE.png" alt="Rafael Real" class="title"></a>
                 </div>
@@ -47,15 +52,16 @@
         </div>
 
 
+
+
+
       </div>
         <div class="col-lg-12 padding-0" style="margin-top: -570px;">
-          <img id="background-img" src="img/background.jpg" alt="">
+          <img id="background-img" src="img/background.jpg" alt="" class="mx-auto">
         </div>
 
 
-        <div id="video-bg" class="col-lg-12 padding-0" style="margin-top: -590px; margin-left: -6px;">
-          <video src="video/bg9.webm" autoplay muted loop responsive height="100%" width="100%"></video>
-        </div>
+
 
 
     </header>
@@ -66,7 +72,7 @@
       <div class="row">
 
 
-            <div class="col-lg-12 text-center projectScroll" style="background-color: #FFD166;">
+            <div  class="col-lg-12 text-center projectScroll" style="background-color: #FFFFFF;">
                   <br>
                   <h1 id="page-title"><i class="fas fa-cogs"></i> Web Design</h1>
                   <br>
@@ -81,20 +87,20 @@
             <br>
             <br>
             <br>
-            <div class="row">
+            <div class="row saints-row ">
 
-              <div class="col-lg-6 text-left">
+              <div class="col-lg-6 text-left ">
 
-                <h2 class="text-left page-align-left">Saint's Coffee</h2>
-                    <div class="ui tall stacked segment" style="margin-left: 90px;">
+                <h2 class=" page-align-left-saints page-align-left">Saint's Coffee</h2>
+                    <div id="text-segment-left" class="ui tall stacked segment">
                       <p class="bio text-left">A beautiful responsive website, with a clean design maded for any coffee shop
                         who wants to get the attention of potential clients on web.</p>
                     </div>
 
               </div>
-              <div class="col-lg-6 text-right">
+              <div class="col-lg-6 text-right scrolltop">
 
-                    <a href="#" class="ui large image page-align-right"><img src="img/saints-coffee.png" alt="" class="float-right scrolltop" style=""></a>
+                    <a href="#" class="ui large image page-align-right"><img src="img/saints-coffee.png" alt="" class="float-right saints" style=""></a>
               </div>
 
             </div>
@@ -106,29 +112,30 @@
 <!-- Orlando City F,C --->
 
         <div class="container-fluid max-width col-gray-l-color ">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="row orlando-row ">
 
-            <div class="row">
-              <div class="col-lg-6 text-left">
-                <a href="https://image.ibb.co/fe42uc/Orlando_City_fw.png"> <img src="img/orlando-mockup.png" alt="" class="page-align-left float-left scrolltop2" style="margin-top: 120px;"> </a>
+            <div class="col-lg-6 col-sm-6 text-left order-first ">
 
-              </div>
-              <div class="col-lg-6 text-right" style="">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-
-
-                <h2 class="text-right page-align-right">Orlando City Soccer Club</h2>
-                    <div class="ui tall stacked segment" style="margin-right: 90px;">
-                      <p class="bio text-right">A beautiful responsive website, with a clean design maded for the Orlando City Soccer Team.</p>
-                    </div>
-              </div>
+              <h2 class="text-lg-left page-align-left page-align-left-orlando text-sm-center">Orlando City Soccer Club</h2>
+                  <div id="text-segment-left" class="ui tall stacked segment">
+                    <p class="bio text-left">A beautiful responsive website,designed for the Orlando City Soccer Team.</p>
+                  </div>
 
             </div>
+            <div class="col-lg-6 text-right order-last scrolltop2">
+
+                  <a href="#" class="ui large image page-align-right"><img src="img/orlando-mockup.png" alt="" class="float-left orlando" style=""></a>
+            </div>
+
+          </div>
+
 
         </div>
 
@@ -136,7 +143,7 @@
 <!-- Apps -->
 
 
-    <div class="container-fluid max-width col-black-color">
+    <div class="container-fluid max-width col-black-color scrolltop3">
 
       <div class="container-fluid text-center max-width">
         <br>
@@ -144,7 +151,7 @@
         <h1 id="page-title" style="color: #ffffee;"><i class="fas fa-mobile"></i> Apps</h1>
       </div>
 
-      <div class="row">
+      <div  id="Apps-lg" class="row">
 
               <div class="col-lg-4 text-center">
                 <img id="julesTrigger" src="img/julis.png" alt=""  class=" jules mx-auto link">
@@ -165,10 +172,12 @@
 
       </div>
 
-    </div>
-
-
-
+<!-- CAROUSEL APPS -->
+<div  id="carouselApps" class="">
+  <div class="carousel-cell"> <img class="julesTrigger" src="img/julis.png" alt="">  </div>
+  <div class="carousel-cell"> <img class="randomlyTrigger"src="img/randomly.png" alt=""> </div>
+  <div class="carousel-cell"> <img class="dogTrigger"src="img/mydogbday.png" alt=""> </div>
+</div>
 <!-- Modal Apps -->
 
 
@@ -199,7 +208,8 @@
 
         </div>
       </div>
-      <div class="modal-footer" style="display: none;">
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -230,7 +240,8 @@
 
         </div>
       </div>
-      <div class="modal-footer" style="display: none;">
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -261,7 +272,8 @@
 
         </div>
       </div>
-      <div class="modal-footer" style="display: none;">
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -275,7 +287,7 @@
 
           <div class="col-lg-12 text-center aboutScroll" style="background-color: #fff">
             <br>
-            <h1 class="page-title"><i class="fas fa-user-circle"></i> About</h1>
+            <h1 id="page-title" class="page-title"><i class="fas fa-user-circle"></i> About</h1>
             <br>
           </div>
 
@@ -295,7 +307,7 @@
               <br>
               <br>
               <br>
-                <div class="container-fluid  d-flex justify-content-end"  >
+                <div class="sm-align-content container-fluid  d-flex justify-content-end text-sm-center">
                 <div class="ui raised segment" style="width: 80%;">
                     <h2 style="font-size: 28px; font-family: Roboto-Bold;"><i class="fas fa-graduation-cap"></i> Education</h2>
                     <p class="bio">High School - Colégio São José (2010 - 2012)</p>
@@ -323,7 +335,7 @@
         <div class="col-lg-10">
 
 
-                    <div class="ui raised segment">
+                    <div class="ui raised segment lg-segment">
                         <div class="row">
 
 
@@ -381,18 +393,18 @@
     <br>
     <br>
     <br>
-    <div class="container-fluid text-center contactScroll">
+    <div class="container-fluid text-center">
 
-          <h1 class="page-title" style="color: #fff; font-size: 50px;">Follow me!</h1>
+          <h1 class="page-title lg-icons" style="color: #fff; font-size: 50px;">Follow me!</h1>
 
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid ">
       <br>
       <br>
       <br>
       <br>
 
-    <div class="row">
+    <div class="row lg-icons">
       <div class="col-sm-2 text-center"> <a id="facebook" href="https://www.facebook.com/r3afael" style="text-decoration: none;"><i class="footer-icon fab fa-facebook-f"></i><p class="sub-icon-fb">r3afael</p> </a> </div>
       <div class="col-sm-2 text-center"> <a id="twitter"  href="http://twitter.com/kimerra" style="text-decoration: none;"><i class="footer-icon fab fa-twitter"></i><p class="sub-icon-twitter">@kimerra</p> </a> </div>
       <div class="col-sm-2 text-center"> <a id="instagram" href="https://www.instagram.com/r3afa/" style="text-decoration: none;"><i class="footer-icon fab fa-instagram"></i><p class="sub-icon-instagram">r3afa</p> </a> </div>
@@ -412,9 +424,50 @@
 
 
   </div>
+<div class="container" style="margin-top: -140px">
 
+  <div class="row sm-icons" tyle="margin-top: -100px;" >
+      <div class="col-sm-12 text-center">
+    <a id="facebook" href="https://www.facebook.com/r3afael" style="text-decoration: none; margin: 40px"><i class="footer-icon fab fa-facebook-f"></i><p class="sub-icon-fb">r3afael</p> </a>
+
+     <a id="twitter"  href="http://twitter.com/kimerra" style="text-decoration: none;  margin: 40px"><i class="footer-icon fab fa-twitter"></i><p class="sub-icon-twitter">@kimerra</p> </a>
+
+     <a id="instagram" href="https://www.instagram.com/r3afa/" style="text-decoration: none; margin: 40px"><i class="footer-icon fab fa-instagram"></i><p class="sub-icon-instagram">r3afa</p> </a>
+   </div>
+   </div>
+  <div class="row sm-icons " style="margin-top: 40px">
+    <div class="col-sm-12 text-center">
+     <a id="github"  href="https://github.com/srerrereal" style="text-decoration: none;margin: 40px"><i class="footer-icon fab fa-github"></i><p class="sub-icon-github">srerrereal</p> </a>
+     <a id="linkedin" href="https://www.linkedin.com/in/rafael-r-real/" style="text-decoration: none;margin: 40px"><i class="footer-icon fab fa-linkedin-in"></i><p class="sub-icon-linkedin">rafael-r-real</p> </a>
+
+
+
+
+</div>
+</div>
+
+</div>
+<div class="container" style="margin-top: 80px;">
+
+
+          <div class="row contactScroll sm-icons">
+          <div class="col-lg-4 text-center mx-auto" style="height: 70px; background-color:#0a0a0a; margin-top: -10px; ">
+
+          <span><h4 style="font-family: Roboto-Regular; font-size: 10px float: right; color: #fff;">Made with <i class="em em-heart"></i> by <img src="img/signature copy.png" style="width: 20%;" alt=""> </h4></span>
+
+          </div>
+          <div class="col-lg-4 text-center" style="background-color:#0a0a0a;">
+          <h4  style="color: #fff;font-family: Roboto-Regular; font-size: 14px;"><i class="fas fa-map-marker"></i> Av. Juscelino K. de Oliveira, 2200 | 4D 102 | PELOTAS, RS | BRAZIL</h4>
+          </div>
+          <div class="col-lg-4 text-center" style="background-color:#0a0a0a;">
+          <h4 style="color: #fff; font-family: Roboto-Regular; font-size: 14px;"><i class="fas fa-phone-volume"></i> +5553981199764</h4>
+          </div>
+          </div>
+
+
+  </div>
   </footer>
-  <div class="row">
+  <div class="row contactScroll lg-icons">
     <div class="col-lg-4 text-center mx-auto" style="height: 70px; background-color:#0a0a0a; margin-top: -10px; ">
 
       <span><h4 style="font-family: Roboto-Regular; font-size: 10px float: right; color: #fff;">Made with <i class="em em-heart"></i> by <img src="img/signature copy.png" style="width: 20%;" alt=""> </h4></span>
