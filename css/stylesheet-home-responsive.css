@@ -1,13 +1,16 @@
-@font-face {
-  font-family: 'Roboto'
-  src: url('../font/Roboto/Roboto-Bold.ttf');
-  font-family: 'Roboto-Regular';
-  src: url('../font/Roboto/Roboto-Regular.ttf');
-}
 
 /*tablets*/
 
 @media only screen and (max-width: 780px) {
+
+  @font-face {
+    font-family: 'Roboto'
+    src: url('../font/Roboto/Roboto-Bold.ttf');
+    font-family: 'Roboto-Regular';
+    src: url('../font/Roboto/Roboto-Regular.ttf');
+  }
+
+
 
     #background-img{
       margin-top: 270px;
@@ -44,6 +47,14 @@
 /*smartphones*/
 
 @media only screen and (max-width: 480px) {
+
+  @font-face {
+    font-family: 'Roboto'
+    src: url('../font/Roboto/Roboto-Bold.ttf');
+    font-family: 'Roboto-Regular';
+    src: url('../font/Roboto/Roboto-Regular.ttf');
+  }
+
 
   #background-img{
     margin-top: 270px;
